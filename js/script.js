@@ -19,6 +19,7 @@ const video = document.getElementById("video");
 let life;
 let gameOver;
 let fish;
+let highest = 0;
 
 
 const mouse = {
@@ -241,7 +242,8 @@ function animate(){
     else ctx.fillText("Press Enter To Play!", canvas.width/2.7, canvas.height/2);
 
     if (gameOver){
-        ctx.fillText("Press Enter To Play Again! Your Score Is: " + score, 10, canvas.height/2);
+        if (score > highest) highest = score;
+        ctx.fillText("Press Enter To Play Again! Your Score: " + score + " - Your highest: " + highest, 10, canvas.height/2);
     }
     requestAnimationFrame(animate);
 }
