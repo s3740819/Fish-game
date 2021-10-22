@@ -1,0 +1,26 @@
+{
+  "name": "fish-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s3740819/Fish-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s3740819/Fish-game/issues"
+  },
+  "homepage": "https://github.com/s3740819/Fish-game#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node": "^17.0.1",
+    "path": "^0.12.7"
+  }
+}
