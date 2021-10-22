@@ -10,7 +10,7 @@ Non-Functionality:
 How to Run:
 - If you already installed nodejs, skip this step, otherwise, goto: https://nodejs.org/en/ and follow the instruction to download it.
 - Open terminal/Command Prompt/PowerShell, access to this project's folder
-- Then, run the command: "**node server.js**", go to the given link and enjoy. ^^  
+- Then, run the command: "**node server.js**", then access to the given link and enjoy. ^^  
 
 Some pictures:
 - Start game:
